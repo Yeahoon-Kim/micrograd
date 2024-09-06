@@ -51,6 +51,37 @@ class Value:
 
         return out
 
+    ################# Task 1: implement more activations #################
+    # You can implement more activations such as sigmoid, tanh, etc.
+    # Make sure to implement their gradients as well.
+    
+    def sigmoid(self):
+        # You can refer to the following link to implement the sigmoid function
+        # https://en.wikipedia.org/wiki/Sigmoid_function
+        pass
+    
+    def tanh(self):
+        # You can refer to the following link to implement the tanh function
+        # https://en.wikipedia.org/wiki/Hyperbolic_function
+        pass
+    
+    def SiLU(self):
+        # You can refer to the following link to implement the SiLU function
+        # https://arxiv.org/abs/1702.03118
+        pass
+    
+    def GELU(self):
+        # You can refer to the following link to implement the GELU function
+        # https://arxiv.org/abs/1606.08415
+        pass
+    
+    def ELU(self):
+        # You can refer to the following link to implement the ELU function
+        # https://arxiv.org/abs/1511.07289
+        pass
+    
+    ######################################################################
+    
     def backward(self):
 
         # topological order all of the children in the graph
